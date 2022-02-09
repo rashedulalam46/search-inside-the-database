@@ -1,7 +1,7 @@
 ﻿-- =============================================
 -- Author:		Rashedul Alam
 -- Create date: January, 2022
--- Description:	SQL multiple tables update
+-- Description:	Search a string inside the entire database
 -- Execute dbo.SearchTheString 'john'
 -- =============================================
 CREATE PROCEDURE [dbo].[SearchTheString]	
@@ -73,7 +73,11 @@ BEGIN
 
 
 	--Return output 
-	SELECT table_name As TableName, FieldName,FieldValue  FROM @StringLocations 
+	SELECT 
+		table_name As TableName, 
+		FieldName,
+		FieldValue  
+	FROM @StringLocations 
 
     
 	
