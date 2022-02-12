@@ -77,8 +77,6 @@ BEGIN
 		table_name As TableName, 
 		FieldName,
 		FieldValue  
-	FROM @StringLocations 
-
-    
+	FROM @StringLocations     
 	
 END
