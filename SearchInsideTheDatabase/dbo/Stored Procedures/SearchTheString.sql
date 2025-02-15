@@ -72,8 +72,8 @@ BEGIN
 	--Return output 
 	SELECT 
 		table_name As TableName, 
-		FieldName,
-		FieldValue  
+		--FieldName,
+		--FieldValue  
 	FROM @StringLocations     
 	
 END
