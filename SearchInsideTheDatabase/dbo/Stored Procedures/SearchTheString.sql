@@ -18,6 +18,7 @@ BEGIN
 	  FieldName NVARCHAR(1000),
 	  FieldValue VARCHAR(8000)
 	)
+
 	-- Variable declaration
 	DECLARE
 	  @table_name varchar(1000),
