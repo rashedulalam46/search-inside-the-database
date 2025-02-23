@@ -1,5 +1,5 @@
 ﻿-- =============================================
--- Author:		Rashedul Alam
+-- Author:		Rashedul Alam Rashed
 -- Create date: January, 2022
 -- Description:	Search a string inside the entire database
 -- Execute dbo.SearchTheString 'john'
@@ -18,8 +18,6 @@ BEGIN
 	  FieldName NVARCHAR(1000),
 	  FieldValue VARCHAR(8000)
 	)
-
-
 
 	-- Variable declaration
 	DECLARE
