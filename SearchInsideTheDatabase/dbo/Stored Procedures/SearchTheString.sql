@@ -12,7 +12,6 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
-
 	--Create results table
 	DECLARE @StringLocations table(
 	  table_name NVARCHAR(1000),
