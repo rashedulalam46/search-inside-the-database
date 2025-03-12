@@ -67,8 +67,7 @@ BEGIN
 		END
 	  END
 	END
-
-
+	--End of table loop
 	--Return output 
 	SELECT 
 		table_name As TableName, 
