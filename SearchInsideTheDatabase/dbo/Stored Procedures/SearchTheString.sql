@@ -23,7 +23,7 @@ BEGIN
 	DECLARE
 	  @table_name varchar(1000),
 	  @FieldName varchar(1000)
-
+	--Initialize table name to null so the first table is found
 
 	SET @table_name = ''
 
@@ -68,7 +68,7 @@ BEGIN
 	  END
 	END
 	--End of table loop
-	
+
 	--Return output 
 	SELECT 
 		table_name As TableName, 
