@@ -25,6 +25,7 @@ BEGIN
 	  @FieldName varchar(1000)
 	--Initialize table name to null so the first table is found
 
+
 	SET @table_name = ''
 
 	SET @SearchString = QUOTENAME('%' + @SearchString + '%','''')
