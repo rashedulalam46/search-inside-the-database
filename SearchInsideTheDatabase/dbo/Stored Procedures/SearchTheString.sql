@@ -40,7 +40,7 @@ BEGIN
 		where 
 		  table_type = 'BASE TABLE' and
 		  QUOTENAME(table_schema) + '.' + QUOTENAME(table_name) > @table_name and
-		  OBJECTPROPERTY(OBJECT_ID(QUOTENAME(table_schema) + '.' + QUOTENAME(table_name)), 'IsMSShipped') = 0
+		  OBJECTPROPERTY(OBJECT_ID(QUOTENAME(table_schema) + '.' + QUOTENAME(table_name)),'IsMSShipped') = 0
 	  )
 
 	--For each string is Feld
